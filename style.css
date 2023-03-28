@@ -1,0 +1,47 @@
+:root{
+    --primary: hsl(0, 0%, 100%);
+    --secundary: hsl(212, 45%, 89%);
+    --terciary : hsl(220, 15%, 55%);
+    --forthy: hsl(218, 44%, 22%);
+    --text: 'Lexend Deca';
+    --second-text: sans-serif;
+}
+
+body{
+    background-color: var(--secundary);
+    display: grid;
+    place-content: center;
+    padding-top: 100px;
+    font-family: var();
+}
+
+.container{
+    background-color: var(--primary);
+    color: var(--forthy);
+    height: 500px;
+    width: 300px;
+    border-radius: 10px 10px 10px 10px;
+    font-family: var(--second-text);
+    
+}
+
+.container h1{
+    padding-left: 35px;
+    font-size: 20px;
+    
+}
+
+.container p{   
+    font-size: 17px;
+    color: var(--terciary);
+    text-align: center;
+}
+
+img{    
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+    height: 280x;
+    width: 280px;
+
+}
